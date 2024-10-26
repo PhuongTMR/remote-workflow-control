@@ -57,8 +57,8 @@ verify_option_was_provided WORKFLOW_REPO   "--workflow-repo"
 verify_option_was_provided WORKFLOW_YAML   "--workflow-yaml"
 verify_option_was_provided WORKFLOW_BRANCH "--workflow-branch"
 
-# Since the '--workflow-inputs' option requires *some* argument, 
-# I wanted to refrain from having to specify it inside the variables 
+# Since the '--workflow-inputs' option requires *some* argument,
+# I wanted to refrain from having to specify it inside the variables
 # that are passed to 'action.yaml', therefore I'm setting the default
 # value of inputs to 'none' and nullifying it here below if it is not provided by the user;
 
